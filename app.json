@@ -1,17 +1,39 @@
 {
-  "pages":[
+  "pages": [
     "pages/post/post",
-    "pages/post/edit/edit",
-    "pages/post/list/list",
-    "pages/post/detail/detail",
-    
+    "pages/edit/edit",
+    "pages/list/list",
+    "pages/detail/detail",
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FFFF6F",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTitleText": "极简记账本",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/post/post",
+        "text": "记账",
+        "iconPath": "pages/icon/3.png",
+        "selectedIconPath": "pages/icon/4.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "支持",
+        "iconPath": "pages/icon/5.png",
+        "selectedIconPath": "pages/icon/6.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }

@@ -1,6 +1,13 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<view class="container">
+  <image
+    class="image-avatar"
+    src="../icon/thanks.png"
+    mode="widthFix"
+    bindtap="previewImage"
+  />
+  <text class="text-class" selectable='true' bindlongtap='copy' bindtap="copyBtn">
+    关注作者请weibo@{{text}}
+  </text>
+  <text class="button-class" bindtap="gotoMyweichat">@小程序开发</text>
 </view>

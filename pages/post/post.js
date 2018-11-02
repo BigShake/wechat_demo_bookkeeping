@@ -22,14 +22,14 @@ Page({
   },
   onEditTap: function () {
     wx.navigateTo({
-      url: 'edit/edit'
+      url: '../edit/edit'
     })
   },
   onDetailTap: function (ev) {
 
     var idName = ev.currentTarget.id;
     wx.navigateTo({
-      url: 'detail/detail?idName=' + idName
+      url: '../detail/detail?idName=' + idName
     })
   },
   onReady: function () {

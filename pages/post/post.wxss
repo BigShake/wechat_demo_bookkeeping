@@ -1,4 +1,4 @@
-@import "list/list.wxss";
+@import "../list/list.wxss";
 
 .total{
     display: flex;flex-direction: column;
