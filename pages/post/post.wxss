@@ -8,17 +8,26 @@
 }
 
 .total .total-money{
-    width: 100%;height:100rpx;
-    font-size: 50rpx;text-align: center;line-height: 100rpx;
+    width: 100%;
+    height:100rpx;
+    font-size: 50rpx;
+    text-align: center;
+    line-height: 100rpx;
 }
 .total .total-word{
-    width: 100%;height:40rpx;
-    font-size: 30rpx;text-align: center;line-height: 40rpx;
+    width: 100%;
+    height:40rpx;
+    font-size: 30rpx;
+    text-align: center;
+    line-height: 40rpx;
 }
 
 .total .total-list{
-    width: 100%;height: 200rpx;
-    display: flex;flex-direction: row;justify-content: space-between;
+    width: 100%;
+    height: 200rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
 .total .total-list .shuxian{
@@ -67,7 +76,7 @@
     text-align: center;
     background: lightblue;
     padding: 20rpx 0;
-    background: #FFFF6F;
+    background: #f7e5b1;
     position: relative;
 
 }

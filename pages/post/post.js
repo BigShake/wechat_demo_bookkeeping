@@ -14,11 +14,14 @@ Page({
     moveX: 0,
     endX: 0,
     slideX: 0,
-
-
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
+
+    //页面分享按钮
+    wx.showShareMenu({
+      withShareTicket: true
+    })
   },
   onEditTap: function () {
     wx.navigateTo({

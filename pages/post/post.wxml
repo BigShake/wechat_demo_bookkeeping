@@ -23,7 +23,7 @@
 
 	<view class="show ">
 		<span wx:if="{{detailInfo}}">
-			每天多一些好奇 生活总是那么有趣
+			像少年啦飞驰
 		</span>
 		<view class="list-container" wx:else>
 			<block wx:for="{{data}}" wx:for-item="item" wx:for-index="index">
